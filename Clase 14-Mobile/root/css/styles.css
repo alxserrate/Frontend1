@@ -1,0 +1,504 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    width: 95%;
+    max-width: 64em;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    margin: 0 auto;
+}
+
+/* Primera barra de Header */
+.barra1 {
+    background-color: #000000;
+    height: 1.25em;
+    color: #ffffff;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.title1 {
+    height: 1.25rem;
+    display: flex;
+    align-items: center;
+    margin-left: 5em;
+    font-size: 0.625em;
+    font-weight: normal;
+}
+
+.nav1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    margin-right: 2.5em;
+}
+
+.title-nav {
+    font-size: 0.625em;
+    font-weight: normal;
+    margin: 0 0.125em 0 0.75em;
+}
+
+.vector {
+    width: 8px;
+    height: 5px;
+    margin: 0 1px;
+}
+
+/* Segunda barra del Header */
+
+.barra2 {
+    height: 3.87em;
+    background-color: #F0A83E;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.fa-solid{
+    color: #F0A83E;
+}
+
+.logo1 {
+    margin-left: 1.25em;
+}
+
+.list1 {
+    display: flex;
+    flex-direction: row;
+    margin: 0 1.875em;
+}
+
+.huella {
+    width: 15px;
+    height: 14px;
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+}
+
+.text-huella {
+    color:#ffffff;
+    font-size: 0.8125em;
+    margin: 0 0.125em;
+}
+
+.item1 {
+    display: flex;
+    flex-direction: row;
+    margin-right: 0.625em;
+}
+
+/* Main - Logo Destacado */
+
+.logo-destacado {
+    background-image: url(../img/Logo-destacado.png);
+    height: 25.5625em;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.text-destacado {
+    width: 22.8125em;
+    height: 9.375em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    object-fit: cover;
+    margin: 3.4375em 0.9375em 0 0;
+}
+
+.text1-D {
+    width: 22.8125rem;
+    height: 3.375rem;
+    background-color: #ffffff;
+    color:#3C2313;
+    font-size: 1.875em;
+    font-weight:bold;
+    border-radius: 0.25em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.text2-D {
+    font-size: 1em;
+    color:#3C2313;
+    font-weight: normal;
+    margin: 0;
+}
+
+.text3-D {
+    font-size: 1em;
+    background-color:#F0A83E;
+    color: #ffffff;
+    width: 8.8125em;
+    height: 3.0625em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.25em;
+    margin: 0;
+}
+
+/* Productos Destacados */
+
+.list-D1{
+    width: 16.875em;
+    display: flex;
+    font-size: 0.9375em;
+    flex-direction: row;
+    justify-content: space-between;    
+}
+
+.huella2 {
+    width: 4.1875em;
+    height: 4.4375em;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.productos-D {
+    color:#3C2313;
+    width: 100%;
+    height: 9.375em;
+    line-height: 2.8125em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1em 0 2em 0;
+}
+
+/* Cards de Productos */
+
+.product1 {
+    width: 16.5625em;
+    height: 16.80375em;
+}
+
+.card {
+    background-color: #FBFAF6;
+    width: 16.5625em;
+    height: 19.5em;
+    margin: 0.625em auto 1.25em;
+}
+
+.card-p {
+    height: 2.69625em;
+    background-color: #FBFAF6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+}
+
+.juguete {
+    font-size: 0.9375em;
+    color: #3C2313;
+    font-weight:bold;
+}
+
+.precio {
+    color:#F0A83E;
+}
+
+.cards {
+    width: 85%;
+    display: grid;
+    gap: 5px;
+    grid-template-columns: repeat(auto-fill, minmax(265px, 1fr));
+    margin: auto;
+}
+
+/* Contáctanos */
+
+.contacto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 40px 0;
+}
+
+h3 {
+    font-size: 1.5625em;
+    font-weight:bold;
+    color:#3C2313;
+    margin-bottom: 1.25em;
+}
+
+.form {
+    display: flex;
+    align-items: center;
+    width: 21.25rem;
+    height: 2.5rem;
+    font-size: 9px;
+    background-color: #3C2313;
+    color: #ffffff;
+    border-radius: 0.9375rem;
+    margin: 0.3125rem;
+    padding-left: 0.9375em;
+}
+
+.botones {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.boton1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 110px;
+    height: 34px;
+    color: #ffffff;
+    border-radius: 15px;
+    font-size: 1em;
+    background-color:#8A8787;
+    margin: 5px;
+}
+
+.boton2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 110px;
+    height: 34px;
+    color: #ffffff;
+    border-radius: 15px;
+    font-size: 1em;
+    background-color:#F0A83E;
+    margin: 5px;
+}
+
+/* Pie de Pagina 1 */
+
+.footer1 {
+    background-color: #F0A83E;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.novedades {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-novedades {
+    font-size: 20px;
+    color: #ffffff;
+    margin: 0 10px;
+}
+
+.suscribase {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-pp1 {
+    width: 16.9375rem;
+    height: 2.5rem;
+    font-size: 10px;
+    font-weight: lighter;
+    color:#A0A0A0;
+    border-radius: 0.9375rem;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    padding-left: 0.9375em;
+}
+
+.text-pp2 {
+    width: 4.375rem;
+    height: 2.125rem;
+    font-size: 9px;
+    font-weight: lighter;
+    color:#ffffff;
+    border-radius: 0.9375rem;
+    background-color:#3C2313;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h6 {
+    margin: 0 5px;
+}
+
+.footer2 {
+    height: 282px;
+    background-color: #3C2313;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+}
+
+.logo-footer {
+    width: 166px;
+    height: 23px;
+}
+
+.logos {
+    height: 282px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+.local .telefono .correo {
+    width: 66px;
+    height: 66px;
+    margin: 40px;
+}
+
+.barra-final {
+    height: 20px;
+    background-color: #000000;
+    color:#ffffff;
+    font-weight: lighter;
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.datos {
+    display: flex;
+    flex-direction: row;
+}
+
+.datos2 {
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 20px;
+}
+
+.datos2-pp1 {
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.datos2-pp2 {
+    font-size: 10px;
+    font-weight: lighter;
+}
+
+
+
+
+
+
+    /* Media Queries 3 medidas */
+
+@media (max-width: 768px) {
+  body {
+    padding: 0;
+    max-width: 100%;
+    margin: 0 auto;
+    }  
+
+.text-novedades {
+    font-size: 15px;
+}
+
+.text-pp1 {
+    width: 220px;
+    height: 40px;
+    font-size: 7px;
+    }
+}
+
+@media (max-width: 600px) {
+.nav2 {
+    display: none;
+}
+
+.productos-D {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+h1 {
+    width: 250px;
+    text-align: center;
+}
+
+.list-D1 {
+    width: 300px;
+}
+
+.footer1 {
+    height: 101px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 0 20px;
+    }
+
+.footer2 {
+    height: 326px;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-around;
+}
+
+}
+
+@media (max-width: 414px) {
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    margin: 0 auto;
+} 
+
+.barra1 {
+    display: none;
+}
+    
+.fa-solid {
+    display: block;
+    color: #ffffff;
+    margin: 0 1.5rem;
+}
+
+.text-destacado {
+    display: flex;
+    align-items: flex-end;
+}
+
+.huella2 {
+    width: 90px;
+    height: 83px;
+    margin: 15px 0;
+}
+
+
+}

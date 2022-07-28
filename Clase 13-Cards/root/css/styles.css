@@ -1,0 +1,175 @@
+/* Contenido principal */
+body {
+    width: 64em;
+    margin: 0 auto;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Encabezado */
+.barra1 {
+    height: 2.375rem;
+    background-color:#D1891C;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding-left: 1.6875em;
+    font-size: 0.9375em;
+    font-weight: normal;
+}
+
+.barra2 {
+    height: 6.3125rem;
+    background-color: #00669F;
+    color: #ffffff;
+    box-shadow: 0 10px 7px 0  #00000040;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    font-size: 3em;
+    font-weight: bold;
+    padding-left: 1.75rem;
+}
+
+/* Cards de Super heroes */
+
+
+.head {
+    width: 1.875rem;
+    height: 1.75rem;
+    padding: 15px 0 0 15px;
+    position: relative;
+    top: -75px;
+}
+
+.contenedor {
+    width: 21.875em;
+    height: 20.625em;
+    background-color: #f3f3f3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 3.125rem;
+}
+
+.avatar {
+    width: 7.5rem;
+    height: 7.375rem;
+    border-radius: 56px;
+    position: relative;
+    top: 130px;
+    left: 65px;
+}
+
+.titulo {
+    font-size: 1.875em;
+    margin: 0;
+
+}
+
+p {
+    width: 19.375em;
+    font-size: 1em;
+    color: #333333;
+    margin: 0;
+
+}
+
+span {
+    width: 8em;
+    height: 3em;
+    background-color: #00669F;
+    font-size: 0.9375em;
+    color: #ffffff;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagenes1 {
+    background-image: url(../img/Fondo-Batman.png);
+    background-size: cover;
+    width: 21.875em;
+    height: 12.0625em;
+    border-radius: 20px 20px 0 0;
+    margin-top: 40px;
+}
+
+.imagenes2 {
+    background-image: url(../img/Fondo-MujerM.png);
+    background-size:cover;
+    width: 21.875em;
+    height: 12.0625em;
+    border-radius: 20px 20px 0 0;
+    margin-top: 40px;
+}
+
+.imagenes3 {
+    background-image: url(../img/Fondo-Superman.png);
+    background-size:cover;
+    width: 21.875em;
+    height: 12.0625em;
+    border-radius: 20px 20px 0 0;
+    margin-top: 40px;
+}
+
+.imagenes4 {
+    background-image: url(../img/Fondo-Harley.png);
+    background-size:cover;
+    width: 21.875em;
+    height: 12.0625em;
+    border-radius: 20px 20px 0 0;
+    margin-top: 40px;
+}
+
+.cards {
+    background-color: #e5e5e5;
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(auto-fill, minmax(330px, 1fr));
+    gap: 60px;
+}
+
+.card {
+    margin: auto;
+}
+
+.elipse {
+    width: 3.125rem;
+    height: 3.125rem;
+    font-size: 1.875em;
+    border-radius: 1.5625rem;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: -44.375rem;
+    left: 59.375rem;
+}
+
+footer {
+    background-color: #00669F;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: end;
+}
+
+.github {
+    transform: scale(0.4);
+}
+
+.barra3 {
+    width: 530px;
+    color: #ffffff;
+    text-align: center;
+}
+
+@media (max-width: 600px) {
+    .cards {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 auto;
+    }   
+}
